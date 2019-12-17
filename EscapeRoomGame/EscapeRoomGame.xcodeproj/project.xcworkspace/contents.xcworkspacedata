@@ -5,6 +5,9 @@
       location = "group:/Users/ahanson/Projects/MobileDev/project-4-Nanthno/EscapeRoomGame/EscapeRoomGame/Assets.xcassets">
    </FileRef>
    <FileRef
+      location = "group:/Users/ahanson/Projects/MobileDev/project-4-Nanthno/EscapeRoomGame/EscapeRoomGame/Assets.xcassets">
+   </FileRef>
+   <FileRef
       location = "self:EscapeRoomGame.xcodeproj">
    </FileRef>
 </Workspace>

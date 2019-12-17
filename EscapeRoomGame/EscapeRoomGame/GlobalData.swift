@@ -14,12 +14,14 @@ struct GlobalData {
     static let itemImages = [Item.none: "BlankImage.png",
         Item.lockPick: "LockPickIcon.png",
         Item.key: "KeyIcon.png",
-        Item.note: "NoteIcon.png"]
+        Item.note: "NoteIcon.png",
+        Item.pot: "PotIcon.png"]
     
     static let itemStrings = [Item.none: "Nothing",
                               Item.lockPick: "Lock Pick",
                               Item.key: "Key",
-        Item.note: "Password Hint: 'You won't forget it'"]
+        Item.note: "Password Hint: 'You won't forget it'",
+        Item.pot: "Flower Pot"]
     
     static func getItemImage() -> UIImage? {
         return UIImage(named: itemImages[item]!)
