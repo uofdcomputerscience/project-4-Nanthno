@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FrontWestViewController : GameScreenViewController {
+class FrontWestViewController : UIViewController {
     
     @IBOutlet weak var mainView: UIImageView!
     @IBOutlet weak var itemView: UIImageView!
@@ -21,8 +21,6 @@ class FrontWestViewController : GameScreenViewController {
     @IBOutlet weak var forwardButton: UIButton!
     
     override func viewDidLoad() {
-        frameWidth = mainView.frame.width
-        frameHeight = mainView.frame.height
         updateImage()
         updateItem()
         forwardButton.isEnabled = (FrontWestViewController.state > 0)
@@ -76,6 +74,7 @@ class FrontWestViewController : GameScreenViewController {
         OutCellNorthViewController.state = 0
         OutCellSouthViewController.state = 0
         GlobalData.item = Item.none
+        ConsoleViewController.unlocked = false
     }
     
 }

@@ -11,17 +11,12 @@
 		18575D5A23A82A43009A67D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D5923A82A43009A67D4 /* ViewController.swift */; };
 		18575D5D23A82A43009A67D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18575D5B23A82A43009A67D4 /* Main.storyboard */; };
 		18575D6223A82A46009A67D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18575D6023A82A46009A67D4 /* LaunchScreen.storyboard */; };
-		18575D6A23A82C59009A67D4 /* InventoryCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D6923A82C59009A67D4 /* InventoryCollectionController.swift */; };
 		18575D6C23A82CC4009A67D4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D6B23A82CC4009A67D4 /* Item.swift */; };
-		18575D7423A82F13009A67D4 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D7323A82F13009A67D4 /* Room.swift */; };
-		18575D7623A82F46009A67D4 /* Facing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D7523A82F46009A67D4 /* Facing.swift */; };
 		18575D7823A83295009A67D4 /* InCellNorthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D7723A83295009A67D4 /* InCellNorthViewController.swift */; };
-		18575D7A23A8385E009A67D4 /* GameScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D7923A8385E009A67D4 /* GameScreenViewController.swift */; };
 		18575D7C23A84483009A67D4 /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D7B23A84483009A67D4 /* GlobalData.swift */; };
 		18575D8023A84BC4009A67D4 /* InCellSouthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D7F23A84BC4009A67D4 /* InCellSouthViewController.swift */; };
 		18575D8223A8520D009A67D4 /* OutCellSouthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D8123A8520D009A67D4 /* OutCellSouthViewController.swift */; };
 		18575D8423A853F4009A67D4 /* OutCellEastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D8323A853F4009A67D4 /* OutCellEastViewController.swift */; };
-		18575D8623A8576D009A67D4 /* blankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D8523A8576D009A67D4 /* blankViewController.swift */; };
 		18575D8A23A85D3C009A67D4 /* OutCellNorth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D8923A85D3C009A67D4 /* OutCellNorth.swift */; };
 		1860C3D923A94B76009C15C2 /* CompSouthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860C3D823A94B76009C15C2 /* CompSouthViewController.swift */; };
 		1860C3DB23A94E4F009C15C2 /* CompNorthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860C3DA23A94E4F009C15C2 /* CompNorthViewController.swift */; };
@@ -44,17 +39,12 @@
 		18575D5C23A82A43009A67D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18575D6123A82A46009A67D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18575D6323A82A46009A67D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18575D6923A82C59009A67D4 /* InventoryCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryCollectionController.swift; sourceTree = "<group>"; };
 		18575D6B23A82CC4009A67D4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		18575D7323A82F13009A67D4 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
-		18575D7523A82F46009A67D4 /* Facing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facing.swift; sourceTree = "<group>"; };
 		18575D7723A83295009A67D4 /* InCellNorthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCellNorthViewController.swift; sourceTree = "<group>"; };
-		18575D7923A8385E009A67D4 /* GameScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreenViewController.swift; sourceTree = "<group>"; };
 		18575D7B23A84483009A67D4 /* GlobalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
 		18575D7F23A84BC4009A67D4 /* InCellSouthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCellSouthViewController.swift; sourceTree = "<group>"; };
 		18575D8123A8520D009A67D4 /* OutCellSouthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutCellSouthViewController.swift; sourceTree = "<group>"; };
 		18575D8323A853F4009A67D4 /* OutCellEastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutCellEastViewController.swift; sourceTree = "<group>"; };
-		18575D8523A8576D009A67D4 /* blankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blankViewController.swift; sourceTree = "<group>"; };
 		18575D8923A85D3C009A67D4 /* OutCellNorth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutCellNorth.swift; sourceTree = "<group>"; };
 		1860C3D823A94B76009C15C2 /* CompSouthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompSouthViewController.swift; sourceTree = "<group>"; };
 		1860C3DA23A94E4F009C15C2 /* CompNorthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompNorthViewController.swift; sourceTree = "<group>"; };
@@ -103,32 +93,27 @@
 		18575D5623A82A43009A67D4 /* EscapeRoomGame */ = {
 			isa = PBXGroup;
 			children = (
-				18575D8923A85D3C009A67D4 /* OutCellNorth.swift */,
+				18575D5B23A82A43009A67D4 /* Main.storyboard */,
 				18575D7B23A84483009A67D4 /* GlobalData.swift */,
+				18575D6B23A82CC4009A67D4 /* Item.swift */,
 				18575D7723A83295009A67D4 /* InCellNorthViewController.swift */,
 				18575D7F23A84BC4009A67D4 /* InCellSouthViewController.swift */,
-				18575D7523A82F46009A67D4 /* Facing.swift */,
-				18575D7323A82F13009A67D4 /* Room.swift */,
-				18575D5723A82A43009A67D4 /* AppDelegate.swift */,
-				18575D5923A82A43009A67D4 /* ViewController.swift */,
-				18575D5B23A82A43009A67D4 /* Main.storyboard */,
-				1860C3ED23A96DB1009C15C2 /* FrontSouthViewController.swift */,
-				1860C3EB23A96C9C009C15C2 /* FrontWestViewController.swift */,
-				1860C3E923A96A5C009C15C2 /* FrontNorthViewController.swift */,
-				1860C3E223A951C5009C15C2 /* ConsoleViewController.swift */,
-				1860C3E023A95086009C15C2 /* WindowViewController.swift */,
+				18575D8923A85D3C009A67D4 /* OutCellNorth.swift */,
+				18575D8123A8520D009A67D4 /* OutCellSouthViewController.swift */,
+				18575D8323A853F4009A67D4 /* OutCellEastViewController.swift */,
 				1860C3DA23A94E4F009C15C2 /* CompNorthViewController.swift */,
+				1860C3D823A94B76009C15C2 /* CompSouthViewController.swift */,
 				1860C3DC23A94E5F009C15C2 /* CompEastViewController.swift */,
 				1860C3DE23A94E71009C15C2 /* CompWestViewController.swift */,
-				1860C3D823A94B76009C15C2 /* CompSouthViewController.swift */,
-				18575D8323A853F4009A67D4 /* OutCellEastViewController.swift */,
-				18575D8123A8520D009A67D4 /* OutCellSouthViewController.swift */,
-				18575D7923A8385E009A67D4 /* GameScreenViewController.swift */,
-				18575D6923A82C59009A67D4 /* InventoryCollectionController.swift */,
-				18575D6B23A82CC4009A67D4 /* Item.swift */,
-				18575D8523A8576D009A67D4 /* blankViewController.swift */,
+				1860C3E223A951C5009C15C2 /* ConsoleViewController.swift */,
+				1860C3E023A95086009C15C2 /* WindowViewController.swift */,
+				1860C3E923A96A5C009C15C2 /* FrontNorthViewController.swift */,
+				1860C3ED23A96DB1009C15C2 /* FrontSouthViewController.swift */,
+				1860C3EB23A96C9C009C15C2 /* FrontWestViewController.swift */,
 				18575D6023A82A46009A67D4 /* LaunchScreen.storyboard */,
 				18575D6323A82A46009A67D4 /* Info.plist */,
+				18575D5723A82A43009A67D4 /* AppDelegate.swift */,
+				18575D5923A82A43009A67D4 /* ViewController.swift */,
 				1860C3E723A96936009C15C2 /* Assets.xcassets */,
 			);
 			path = EscapeRoomGame;
@@ -271,23 +256,18 @@
 				1860C3DB23A94E4F009C15C2 /* CompNorthViewController.swift in Sources */,
 				18575D6C23A82CC4009A67D4 /* Item.swift in Sources */,
 				18575D8423A853F4009A67D4 /* OutCellEastViewController.swift in Sources */,
-				18575D7423A82F13009A67D4 /* Room.swift in Sources */,
 				18575D7823A83295009A67D4 /* InCellNorthViewController.swift in Sources */,
 				1860C3EA23A96A5C009C15C2 /* FrontNorthViewController.swift in Sources */,
 				1860C3D923A94B76009C15C2 /* CompSouthViewController.swift in Sources */,
-				18575D6A23A82C59009A67D4 /* InventoryCollectionController.swift in Sources */,
 				1860C3E323A951C5009C15C2 /* ConsoleViewController.swift in Sources */,
 				1860C3DD23A94E5F009C15C2 /* CompEastViewController.swift in Sources */,
 				18575D5A23A82A43009A67D4 /* ViewController.swift in Sources */,
-				18575D8623A8576D009A67D4 /* blankViewController.swift in Sources */,
 				1860C3EC23A96C9C009C15C2 /* FrontWestViewController.swift in Sources */,
 				18575D8223A8520D009A67D4 /* OutCellSouthViewController.swift in Sources */,
-				18575D7A23A8385E009A67D4 /* GameScreenViewController.swift in Sources */,
 				18575D7C23A84483009A67D4 /* GlobalData.swift in Sources */,
 				18575D5823A82A43009A67D4 /* AppDelegate.swift in Sources */,
 				18575D8A23A85D3C009A67D4 /* OutCellNorth.swift in Sources */,
 				1860C3DF23A94E71009C15C2 /* CompWestViewController.swift in Sources */,
-				18575D7623A82F46009A67D4 /* Facing.swift in Sources */,
 				1860C3E123A95086009C15C2 /* WindowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

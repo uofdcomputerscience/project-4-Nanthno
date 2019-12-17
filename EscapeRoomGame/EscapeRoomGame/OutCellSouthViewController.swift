@@ -8,7 +8,7 @@
 
 import UIKit
 
-class OutCellSouthViewController : GameScreenViewController {
+class OutCellSouthViewController : UIViewController{
     
     
     @IBOutlet weak var mainView: UIImageView!
@@ -22,12 +22,9 @@ class OutCellSouthViewController : GameScreenViewController {
     @IBOutlet weak var forwardButton: UIButton!
     
     override func viewDidLoad() {
-        frameWidth = mainView.frame.width
-        frameHeight = mainView.frame.height
         updateImage()
         updateItem()
         forwardButton.isEnabled = (OutCellSouthViewController.state > 0)
-        
     }
     
     @IBAction func doorButtonTapped(_ sender: Any) {

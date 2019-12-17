@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ConsoleViewController : GameScreenViewController {
+class ConsoleViewController : UIViewController {
     
     
     @IBOutlet weak var mainView: UIImageView!
@@ -19,7 +19,6 @@ class ConsoleViewController : GameScreenViewController {
     let imageString = "Desk"
     
     @IBOutlet weak var itemString: UILabel!
-    @IBOutlet weak var forwardButton: UIButton!
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var passwordStack: UIStackView!
     @IBOutlet weak var passwordFlash: UIView!
@@ -28,8 +27,6 @@ class ConsoleViewController : GameScreenViewController {
     let validPasswords:Set = ["trip", "atrip", "a trip"]
     
     override func viewDidLoad() {
-        frameWidth = mainView.frame.width
-        frameHeight = mainView.frame.height
         updateImage()
         updateItem()
     }

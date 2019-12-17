@@ -126,7 +126,7 @@
                                     </view>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5UQ-ox-9hV">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5UQ-ox-9hV">
                                 <rect key="frame" x="158" y="64" width="98" height="30"/>
                                 <state key="normal" title="Move Forward"/>
                             </button>
@@ -156,7 +156,6 @@
                         <viewLayoutGuide key="safeArea" id="Pj3-N0-zzD"/>
                     </view>
                     <connections>
-                        <outlet property="forwardButton" destination="5UQ-ox-9hV" id="siL-9a-btV"/>
                         <outlet property="itemString" destination="Yub-Eb-T6L" id="Ouj-1N-ypD"/>
                         <outlet property="itemView" destination="G1q-tk-mcv" id="M0I-dU-wtd"/>
                         <outlet property="mainView" destination="Gio-Iy-Swi" id="vXU-jN-xSe"/>
@@ -562,7 +561,6 @@
                         <viewLayoutGuide key="safeArea" id="5jE-tz-f2z"/>
                     </view>
                     <connections>
-                        <outlet property="forwardButton" destination="GSk-Oc-4dJ" id="Y3o-vQ-JhX"/>
                         <outlet property="itemString" destination="fsH-bg-pLo" id="uHi-MC-PnJ"/>
                         <outlet property="itemView" destination="TYH-O2-OdL" id="VGQ-dT-Pev"/>
                         <outlet property="mainView" destination="svV-fr-Up7" id="NsS-Go-5t3"/>
@@ -638,7 +636,7 @@
                                     </view>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBz-Ve-nE9">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBz-Ve-nE9">
                                 <rect key="frame" x="158" y="64" width="98" height="30"/>
                                 <state key="normal" title="Move Forward"/>
                             </button>
@@ -675,7 +673,6 @@
                         <viewLayoutGuide key="safeArea" id="0kH-Rh-Yfp"/>
                     </view>
                     <connections>
-                        <outlet property="forwardButton" destination="gBz-Ve-nE9" id="KiF-sX-R6U"/>
                         <outlet property="itemString" destination="SHL-QA-ujC" id="VnA-DU-qlj"/>
                         <outlet property="itemView" destination="tEV-Yn-DIy" id="wH8-UX-aJF"/>
                         <outlet property="mainView" destination="ok6-dY-ao9" id="RLo-bj-h1b"/>
@@ -817,8 +814,6 @@
                         <viewLayoutGuide key="safeArea" id="puE-1j-luD"/>
                     </view>
                     <connections>
-                        <outlet property="PasswordField" destination="ldf-5i-iDX" id="G5c-Zi-JsU"/>
-                        <outlet property="forwardButton" destination="vHP-yn-7pA" id="bXy-Bf-HHv"/>
                         <outlet property="itemString" destination="Wqa-nI-964" id="LZD-Q1-qTG"/>
                         <outlet property="itemView" destination="Zdd-1u-q5V" id="h8y-uB-FJB"/>
                         <outlet property="mainView" destination="gZZ-Ig-1nN" id="j72-Zn-8mR"/>
@@ -1054,7 +1049,6 @@
                         <viewLayoutGuide key="safeArea" id="6lv-hr-vhW"/>
                     </view>
                     <connections>
-                        <outlet property="forwardButton" destination="WuI-fa-ddC" id="Cfd-rr-tlU"/>
                         <outlet property="itemString" destination="ukN-sG-CaI" id="Fvc-Rq-kZt"/>
                         <outlet property="itemView" destination="aJC-dj-iDe" id="dkC-yG-Faj"/>
                         <outlet property="mainView" destination="Nvn-iz-Kpn" id="itT-cz-EE7"/>
@@ -1113,7 +1107,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nothing" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hXe-xd-RjH">
-                                                <rect key="frame" x="8" y="42" width="136" height="20"/>
+                                                <rect key="frame" x="8" y="42" width="136" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1170,7 +1164,6 @@
                         <viewLayoutGuide key="safeArea" id="kpI-u2-C4e"/>
                     </view>
                     <connections>
-                        <outlet property="forwardButton" destination="GgA-r9-uIR" id="HOI-iN-va8"/>
                         <outlet property="itemString" destination="hXe-xd-RjH" id="F8E-NZ-OO5"/>
                         <outlet property="itemView" destination="xJp-a4-XfF" id="CXH-KI-48C"/>
                         <outlet property="mainView" destination="CxN-PV-kj6" id="QVp-gq-qdA"/>
@@ -1229,7 +1222,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nothing" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCQ-Xp-tiI">
-                                                <rect key="frame" x="8" y="42" width="136" height="20"/>
+                                                <rect key="frame" x="8" y="42" width="136" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1275,7 +1268,6 @@
                         <viewLayoutGuide key="safeArea" id="h8W-a2-EHa"/>
                     </view>
                     <connections>
-                        <outlet property="forwardButton" destination="FX8-Um-muu" id="Imv-Wi-g9T"/>
                         <outlet property="itemString" destination="hCQ-Xp-tiI" id="EAt-b8-bX2"/>
                         <outlet property="itemView" destination="Bmg-ur-q9X" id="dw0-Dy-ZVA"/>
                         <outlet property="mainView" destination="QN6-JK-fui" id="Gah-fd-vaE"/>
@@ -1374,7 +1366,6 @@
                         <viewLayoutGuide key="safeArea" id="rGk-et-gcQ"/>
                     </view>
                     <connections>
-                        <outlet property="forwardButton" destination="IC1-k1-zCY" id="ck3-VN-J1U"/>
                         <outlet property="itemString" destination="UNK-X4-HwC" id="K5m-zB-iYw"/>
                         <outlet property="itemView" destination="OGF-zE-cEo" id="GWY-1e-ytI"/>
                         <outlet property="mainView" destination="YfS-OS-2sT" id="EKQ-Hc-GVA"/>
@@ -1479,7 +1470,6 @@
                         <viewLayoutGuide key="safeArea" id="3n4-Kg-eAg"/>
                     </view>
                     <connections>
-                        <outlet property="forwardButton" destination="SnR-dH-hWo" id="SCb-AX-gtW"/>
                         <outlet property="itemString" destination="pkG-M6-Qj9" id="XUD-q9-ByK"/>
                         <outlet property="itemView" destination="vdx-IE-lmr" id="c8z-vb-mel"/>
                         <outlet property="mainView" destination="AbU-r5-yNQ" id="egD-MC-ark"/>
@@ -1672,7 +1662,7 @@
                                     </view>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8b-Cl-HPv">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8b-Cl-HPv">
                                 <rect key="frame" x="158" y="64" width="98" height="30"/>
                                 <state key="normal" title="Move Forward"/>
                             </button>
@@ -1709,7 +1699,6 @@
                         <viewLayoutGuide key="safeArea" id="tci-42-Vus"/>
                     </view>
                     <connections>
-                        <outlet property="forwardButton" destination="o8b-Cl-HPv" id="a2n-6z-5Qh"/>
                         <outlet property="itemString" destination="6oe-kg-48e" id="BxP-Mh-hwd"/>
                         <outlet property="itemView" destination="IXq-E9-UnR" id="P9e-2J-W24"/>
                         <outlet property="mainView" destination="e1h-E4-3Gb" id="no1-Vo-Crc"/>
@@ -1772,14 +1761,14 @@
         <segue reference="Cn9-mQ-AXz"/>
         <segue reference="CW7-j4-hIR"/>
         <segue reference="YaS-mj-xPc"/>
-        <segue reference="vbR-ed-qLh"/>
+        <segue reference="BSY-xA-H03"/>
         <segue reference="D43-8D-5nn"/>
         <segue reference="qCx-iE-9Zq"/>
-        <segue reference="8lr-Qx-LR3"/>
+        <segue reference="VuD-x7-Nd5"/>
         <segue reference="4hA-sI-zgJ"/>
         <segue reference="ww1-24-fTX"/>
-        <segue reference="KAJ-aC-dqf"/>
+        <segue reference="Xz6-hy-oeE"/>
         <segue reference="SdX-rI-xuN"/>
-        <segue reference="5oH-D5-d7e"/>
+        <segue reference="HGa-qS-Qds"/>
     </inferredMetricsTieBreakers>
 </document>

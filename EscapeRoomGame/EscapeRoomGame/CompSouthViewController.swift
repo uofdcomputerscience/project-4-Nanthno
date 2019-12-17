@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CompSouthViewController : GameScreenViewController {
+class CompSouthViewController : UIViewController {
     
     @IBOutlet weak var mainView: UIImageView!
     @IBOutlet weak var itemView: UIImageView!
@@ -20,8 +20,6 @@ class CompSouthViewController : GameScreenViewController {
     @IBOutlet weak var forwardButton: UIButton!
     
     override func viewDidLoad() {
-        frameWidth = mainView.frame.width
-        frameHeight = mainView.frame.height
         updateImage()
         updateItem()
     }

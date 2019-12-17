@@ -8,7 +8,7 @@
 
 import UIKit
 
-class InCellNorthViewController : GameScreenViewController {
+class InCellNorthViewController : UIViewController {
     
 
     @IBOutlet weak var mainView: UIImageView!
@@ -19,14 +19,9 @@ class InCellNorthViewController : GameScreenViewController {
     
     @IBOutlet weak var itemString: UILabel!
     
-    @IBOutlet weak var forwardButton: UIButton!
-    
     override func viewDidLoad() {
-        frameWidth = mainView.frame.width
-        frameHeight = mainView.frame.height
         updateImage()
         updateItem()
-        forwardButton.isEnabled = false
 
     }
     

@@ -8,7 +8,7 @@
 import UIKit
 import LiveKnob
 
-class InCellSouthViewController : GameScreenViewController {
+class InCellSouthViewController : UIViewController {
     
     
 
@@ -28,8 +28,6 @@ class InCellSouthViewController : GameScreenViewController {
     @IBOutlet weak var forwardButton: UIButton!
     
     override func viewDidLoad() {
-        frameWidth = mainView.frame.width
-        frameHeight = mainView.frame.height
         updateImage()
         updateItem()
         forwardButton.isEnabled = (InCellSouthViewController.state == 1)
