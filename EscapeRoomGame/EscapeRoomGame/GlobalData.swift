@@ -10,6 +10,7 @@ import UIKit
 
 struct GlobalData {
     static var item : Item = Item.none
+    static var debugMode = false
     
     static let itemImages = [Item.none: "BlankImage.png",
         Item.lockPick: "LockPickIcon.png",

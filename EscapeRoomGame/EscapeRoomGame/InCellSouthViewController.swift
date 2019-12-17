@@ -17,6 +17,7 @@ class InCellSouthViewController : UIViewController {
     @IBOutlet weak var lockView: UIView!
     @IBOutlet weak var lockImage: UIImageView!
     @IBOutlet weak var arrowImage: UIImageView!
+    @IBOutlet weak var button: UIButton!
     
     @IBOutlet weak var dial: LiveKnob!
     
@@ -50,6 +51,12 @@ class InCellSouthViewController : UIViewController {
         mainView.image = UIImage(named: str)
         lockImage.image = UIImage(named: "Lock.png")
         arrowImage.image = UIImage(named: "Arrow.png")
+        if GlobalData.debugMode {
+            button.backgroundColor = .blue
+        }
+        else {
+            button.backgroundColor = .clear
+        }
     }
     
     func updateItem(item: Item) {

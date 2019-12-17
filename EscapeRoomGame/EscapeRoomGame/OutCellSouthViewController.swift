@@ -20,6 +20,7 @@ class OutCellSouthViewController : UIViewController{
     @IBOutlet weak var itemString: UILabel!
     
     @IBOutlet weak var forwardButton: UIButton!
+    @IBOutlet weak var button: UIButton!
     
     override func viewDidLoad() {
         updateImage()
@@ -40,6 +41,13 @@ class OutCellSouthViewController : UIViewController{
     func updateImage() {
         let str = "\(imageString)\(OutCellSouthViewController.state).png"
         mainView.image = UIImage(named: str)
+        if GlobalData.debugMode {
+            button.backgroundColor = .blue
+        }
+        else {
+            button.backgroundColor = .clear
+        }
+        
     }
     
     func updateItem(item: Item) {

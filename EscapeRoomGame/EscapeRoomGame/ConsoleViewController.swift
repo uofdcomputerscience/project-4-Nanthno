@@ -24,6 +24,8 @@ class ConsoleViewController : UIViewController {
     @IBOutlet weak var passwordFlash: UIView!
     @IBOutlet weak var unlockedText: UILabel!
     
+    
+    
     let validPasswords:Set = ["trip", "atrip", "a trip"]
     
     override func viewDidLoad() {
@@ -44,6 +46,12 @@ class ConsoleViewController : UIViewController {
         else {
             passwordStack.isHidden = false
             unlockedText.isHidden = true
+        }
+        if GlobalData.debugMode {
+            passwordField.backgroundColor = .blue
+        }
+        else {
+            passwordField.backgroundColor = .clear
         }
     }
     

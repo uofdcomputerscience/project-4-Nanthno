@@ -28,6 +28,7 @@
 		1860C3EA23A96A5C009C15C2 /* FrontNorthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860C3E923A96A5C009C15C2 /* FrontNorthViewController.swift */; };
 		1860C3EC23A96C9C009C15C2 /* FrontWestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860C3EB23A96C9C009C15C2 /* FrontWestViewController.swift */; };
 		1860C3EE23A96DB1009C15C2 /* FrontSouthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860C3ED23A96DB1009C15C2 /* FrontSouthViewController.swift */; };
+		187C5D5423A9903700AFA90D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C5D5323A9903700AFA90D /* MenuViewController.swift */; };
 		9CC135D5605E50C215E263FD /* Pods_EscapeRoomGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FA8CCC1AB022997836BCA1 /* Pods_EscapeRoomGame.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		1860C3E923A96A5C009C15C2 /* FrontNorthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontNorthViewController.swift; sourceTree = "<group>"; };
 		1860C3EB23A96C9C009C15C2 /* FrontWestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontWestViewController.swift; sourceTree = "<group>"; };
 		1860C3ED23A96DB1009C15C2 /* FrontSouthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontSouthViewController.swift; sourceTree = "<group>"; };
+		187C5D5323A9903700AFA90D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		4D38B00865D0C1A29E9DF45F /* Pods-EscapeRoomGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EscapeRoomGame.release.xcconfig"; path = "Target Support Files/Pods-EscapeRoomGame/Pods-EscapeRoomGame.release.xcconfig"; sourceTree = "<group>"; };
 		FED3735A13BC96967FBD0DF5 /* Pods-EscapeRoomGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EscapeRoomGame.debug.xcconfig"; path = "Target Support Files/Pods-EscapeRoomGame/Pods-EscapeRoomGame.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +112,7 @@
 				1860C3E923A96A5C009C15C2 /* FrontNorthViewController.swift */,
 				1860C3ED23A96DB1009C15C2 /* FrontSouthViewController.swift */,
 				1860C3EB23A96C9C009C15C2 /* FrontWestViewController.swift */,
+				187C5D5323A9903700AFA90D /* MenuViewController.swift */,
 				18575D6023A82A46009A67D4 /* LaunchScreen.storyboard */,
 				18575D6323A82A46009A67D4 /* Info.plist */,
 				18575D5723A82A43009A67D4 /* AppDelegate.swift */,
@@ -265,6 +268,7 @@
 				1860C3EC23A96C9C009C15C2 /* FrontWestViewController.swift in Sources */,
 				18575D8223A8520D009A67D4 /* OutCellSouthViewController.swift in Sources */,
 				18575D7C23A84483009A67D4 /* GlobalData.swift in Sources */,
+				187C5D5423A9903700AFA90D /* MenuViewController.swift in Sources */,
 				18575D5823A82A43009A67D4 /* AppDelegate.swift in Sources */,
 				18575D8A23A85D3C009A67D4 /* OutCellNorth.swift in Sources */,
 				1860C3DF23A94E71009C15C2 /* CompWestViewController.swift in Sources */,

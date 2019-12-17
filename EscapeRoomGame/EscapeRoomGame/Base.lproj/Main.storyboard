@@ -13,7 +13,7 @@
         <!--Menu-->
         <scene sceneID="PLu-9a-MuG">
             <objects>
-                <viewController title="Menu" id="yUY-Mf-Ukc" sceneMemberID="viewController">
+                <viewController title="Menu" id="yUY-Mf-Ukc" customClass="MenuViewController" customModule="EscapeRoomGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5uV-W5-Ul3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -32,19 +32,40 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8CF-rq-YQh">
+                                <rect key="frame" x="347" y="831" width="51" height="31"/>
+                                <connections>
+                                    <action selector="debugSwitched:" destination="yUY-Mf-Ukc" eventType="valueChanged" id="zDX-fn-Wp3"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Debug Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qrc-23-uUh">
+                                <rect key="frame" x="229" y="836" width="99" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="bqa-qR-bRg" firstAttribute="bottom" secondItem="Qrc-23-uUh" secondAttribute="bottom" constant="5" id="6ry-Rf-CVw"/>
+                            <constraint firstItem="Qrc-23-uUh" firstAttribute="leading" secondItem="bqa-qR-bRg" secondAttribute="leading" constant="229" id="E1R-yt-gXi"/>
                             <constraint firstItem="bqa-qR-bRg" firstAttribute="bottom" secondItem="ISg-ZA-xt5" secondAttribute="bottom" constant="655" id="HZf-iI-P9Q"/>
+                            <constraint firstItem="bqa-qR-bRg" firstAttribute="trailing" secondItem="8CF-rq-YQh" secondAttribute="trailing" constant="18" id="Iou-Oa-gOO"/>
                             <constraint firstItem="5KJ-Hy-O1u" firstAttribute="top" secondItem="bqa-qR-bRg" secondAttribute="top" constant="692" id="JCp-rU-XJR"/>
+                            <constraint firstItem="Qrc-23-uUh" firstAttribute="centerY" secondItem="8CF-rq-YQh" secondAttribute="centerY" id="Nwn-bb-eOn"/>
                             <constraint firstItem="bqa-qR-bRg" firstAttribute="bottom" secondItem="5KJ-Hy-O1u" secondAttribute="bottom" constant="78" id="PDJ-D6-TG9"/>
+                            <constraint firstItem="Qrc-23-uUh" firstAttribute="top" secondItem="bqa-qR-bRg" secondAttribute="top" constant="792" id="Stu-Y5-LWM"/>
                             <constraint firstItem="ISg-ZA-xt5" firstAttribute="top" secondItem="bqa-qR-bRg" secondAttribute="top" constant="111" id="ccC-yS-zR3"/>
+                            <constraint firstItem="8CF-rq-YQh" firstAttribute="leading" secondItem="Qrc-23-uUh" secondAttribute="trailing" constant="19" id="mnP-TH-MtU"/>
                             <constraint firstItem="ISg-ZA-xt5" firstAttribute="centerX" secondItem="bqa-qR-bRg" secondAttribute="centerX" id="ydE-72-mI1"/>
                             <constraint firstItem="5KJ-Hy-O1u" firstAttribute="centerX" secondItem="bqa-qR-bRg" secondAttribute="centerX" id="z4Q-QA-cTy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bqa-qR-bRg"/>
                     </view>
                     <navigationItem key="navigationItem" id="lPu-h3-Kaq"/>
+                    <connections>
+                        <outlet property="debugSwitch" destination="8CF-rq-YQh" id="PEl-p8-V5X"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BnH-Wd-OBa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -156,6 +177,7 @@
                         <viewLayoutGuide key="safeArea" id="Pj3-N0-zzD"/>
                     </view>
                     <connections>
+                        <outlet property="button" destination="lKP-7r-ZzG" id="hq7-Z8-aQ5"/>
                         <outlet property="itemString" destination="Yub-Eb-T6L" id="Ouj-1N-ypD"/>
                         <outlet property="itemView" destination="G1q-tk-mcv" id="M0I-dU-wtd"/>
                         <outlet property="mainView" destination="Gio-Iy-Swi" id="vXU-jN-xSe"/>
@@ -337,6 +359,7 @@
                     </view>
                     <connections>
                         <outlet property="arrowImage" destination="ot1-MT-GF5" id="TMJ-2z-bMo"/>
+                        <outlet property="button" destination="lBP-Rh-F9i" id="wWI-Xg-YuB"/>
                         <outlet property="dial" destination="F2l-3b-pwf" id="AYO-kx-wih"/>
                         <outlet property="forwardButton" destination="eYR-ea-9OF" id="I0U-Rz-zwi"/>
                         <outlet property="itemString" destination="Yno-ap-Fg6" id="sf9-tV-cBn"/>
@@ -456,6 +479,7 @@
                         <viewLayoutGuide key="safeArea" id="U9R-P8-1sy"/>
                     </view>
                     <connections>
+                        <outlet property="button" destination="hXN-K9-Ze5" id="nyr-TO-Gjg"/>
                         <outlet property="forwardButton" destination="Gyd-tm-l18" id="5IB-PA-guR"/>
                         <outlet property="itemString" destination="Fzz-od-QWI" id="Bvg-eN-Ova"/>
                         <outlet property="itemView" destination="Zzw-GZ-lIV" id="OOY-9g-OOK"/>
@@ -673,6 +697,7 @@
                         <viewLayoutGuide key="safeArea" id="0kH-Rh-Yfp"/>
                     </view>
                     <connections>
+                        <outlet property="button" destination="5bx-D6-IXc" id="gTc-87-XEF"/>
                         <outlet property="itemString" destination="SHL-QA-ujC" id="VnA-DU-qlj"/>
                         <outlet property="itemView" destination="tEV-Yn-DIy" id="wH8-UX-aJF"/>
                         <outlet property="mainView" destination="ok6-dY-ao9" id="RLo-bj-h1b"/>
@@ -933,6 +958,7 @@
                         <viewLayoutGuide key="safeArea" id="R7a-2M-hic"/>
                     </view>
                     <connections>
+                        <outlet property="button" destination="XRJ-dp-sQV" id="Tf8-2C-He1"/>
                         <outlet property="forwardButton" destination="Roj-x6-t2C" id="qpO-9Y-Jwk"/>
                         <outlet property="itemString" destination="X7m-q4-aBa" id="5vS-E7-8cC"/>
                         <outlet property="itemView" destination="9kA-Dr-uwl" id="aEL-El-Joi"/>
@@ -1049,6 +1075,7 @@
                         <viewLayoutGuide key="safeArea" id="6lv-hr-vhW"/>
                     </view>
                     <connections>
+                        <outlet property="button" destination="trD-Eg-IxV" id="E68-pL-FZL"/>
                         <outlet property="itemString" destination="ukN-sG-CaI" id="Fvc-Rq-kZt"/>
                         <outlet property="itemView" destination="aJC-dj-iDe" id="dkC-yG-Faj"/>
                         <outlet property="mainView" destination="Nvn-iz-Kpn" id="itT-cz-EE7"/>
@@ -1164,6 +1191,7 @@
                         <viewLayoutGuide key="safeArea" id="kpI-u2-C4e"/>
                     </view>
                     <connections>
+                        <outlet property="button" destination="F4K-br-BC6" id="JFi-v5-bHf"/>
                         <outlet property="itemString" destination="hXe-xd-RjH" id="F8E-NZ-OO5"/>
                         <outlet property="itemView" destination="xJp-a4-XfF" id="CXH-KI-48C"/>
                         <outlet property="mainView" destination="CxN-PV-kj6" id="QVp-gq-qdA"/>
@@ -1586,6 +1614,7 @@
                         <viewLayoutGuide key="safeArea" id="FyX-WG-1gi"/>
                     </view>
                     <connections>
+                        <outlet property="button" destination="El8-2k-Wc2" id="kPE-YE-Bw8"/>
                         <outlet property="forwardButton" destination="uix-Ey-Xje" id="UZg-OZ-CRc"/>
                         <outlet property="itemString" destination="ojC-pa-7va" id="I1D-pK-gV4"/>
                         <outlet property="itemView" destination="Jfp-m5-EcX" id="LL1-J6-CJV"/>
@@ -1699,6 +1728,7 @@
                         <viewLayoutGuide key="safeArea" id="tci-42-Vus"/>
                     </view>
                     <connections>
+                        <outlet property="button" destination="o7N-0S-7cv" id="N8A-1u-5Bx"/>
                         <outlet property="itemString" destination="6oe-kg-48e" id="BxP-Mh-hwd"/>
                         <outlet property="itemView" destination="IXq-E9-UnR" id="P9e-2J-W24"/>
                         <outlet property="mainView" destination="e1h-E4-3Gb" id="no1-Vo-Crc"/>
@@ -1759,16 +1789,16 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Cn9-mQ-AXz"/>
-        <segue reference="CW7-j4-hIR"/>
+        <segue reference="xnP-uG-UnO"/>
         <segue reference="YaS-mj-xPc"/>
-        <segue reference="BSY-xA-H03"/>
-        <segue reference="D43-8D-5nn"/>
+        <segue reference="vbR-ed-qLh"/>
+        <segue reference="Pg0-ln-Rkh"/>
         <segue reference="qCx-iE-9Zq"/>
-        <segue reference="VuD-x7-Nd5"/>
+        <segue reference="8lr-Qx-LR3"/>
         <segue reference="4hA-sI-zgJ"/>
         <segue reference="ww1-24-fTX"/>
         <segue reference="Xz6-hy-oeE"/>
         <segue reference="SdX-rI-xuN"/>
-        <segue reference="HGa-qS-Qds"/>
+        <segue reference="5oH-D5-d7e"/>
     </inferredMetricsTieBreakers>
 </document>

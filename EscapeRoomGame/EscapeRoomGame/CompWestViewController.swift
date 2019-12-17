@@ -17,6 +17,7 @@ class CompWestViewController : UIViewController {
     let imageString = "CompWest"
     
     @IBOutlet weak var itemString: UILabel!
+    @IBOutlet weak var button: UIButton!
     
     override func viewDidLoad() {
         updateImage()
@@ -32,6 +33,12 @@ class CompWestViewController : UIViewController {
     func updateItem(item: Item) {
         GlobalData.item = item
         updateItem()
+        if GlobalData.debugMode {
+            button.backgroundColor = .blue
+        }
+        else {
+            button.backgroundColor = .clear
+        }
     }
     func updateItem() {
         itemView.image = GlobalData.getItemImage()

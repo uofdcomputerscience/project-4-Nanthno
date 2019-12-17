@@ -18,6 +18,7 @@ class CompSouthViewController : UIViewController {
     
     @IBOutlet weak var itemString: UILabel!
     @IBOutlet weak var forwardButton: UIButton!
+    @IBOutlet weak var button: UIButton!
     
     override func viewDidLoad() {
         updateImage()
@@ -29,6 +30,13 @@ class CompSouthViewController : UIViewController {
         mainView.image = UIImage(named: str)
         
         forwardButton.isEnabled = (CompSouthViewController.state == 2)
+        
+        if GlobalData.debugMode {
+            button.backgroundColor = .blue
+        }
+        else {
+            button.backgroundColor = .clear
+        }
     }
     
     func updateItem(item: Item) {

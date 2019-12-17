@@ -20,6 +20,8 @@ class FrontWestViewController : UIViewController {
     @IBOutlet weak var itemString: UILabel!
     @IBOutlet weak var forwardButton: UIButton!
     
+    @IBOutlet weak var button: UIButton!
+    
     override func viewDidLoad() {
         updateImage()
         updateItem()
@@ -30,6 +32,12 @@ class FrontWestViewController : UIViewController {
     func updateImage() {
         let str = "\(imageString)\(FrontWestViewController.state).png"
         mainView.image = UIImage(named: str)
+        if GlobalData.debugMode {
+            button.backgroundColor = .blue
+        }
+        else {
+            button.backgroundColor = .clear
+        }
     }
     
     func updateItem(item: Item) {

@@ -18,6 +18,7 @@ class InCellNorthViewController : UIViewController {
     let imageString = "InCellNorth"
     
     @IBOutlet weak var itemString: UILabel!
+    @IBOutlet weak var button: UIButton!
     
     override func viewDidLoad() {
         updateImage()
@@ -28,6 +29,12 @@ class InCellNorthViewController : UIViewController {
     func updateImage() {
         let str = "\(imageString)\(InCellNorthViewController.state).png"
         mainView.image = UIImage(named: str)
+        if GlobalData.debugMode {
+            button.backgroundColor = .blue
+        }
+        else {
+            button.backgroundColor = .clear
+        }
     }
     
     func updateItem(item: Item) {

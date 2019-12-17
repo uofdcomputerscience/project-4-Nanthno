@@ -18,6 +18,8 @@ class CompNorthViewController : UIViewController {
     
     @IBOutlet weak var itemString: UILabel!
     
+    @IBOutlet weak var button: UIButton!
+    
     override func viewDidLoad() {
         updateImage()
         updateItem()
@@ -27,6 +29,12 @@ class CompNorthViewController : UIViewController {
     func updateImage() {
         let str = "\(imageString)\(CompNorthViewController.state).png"
         mainView.image = UIImage(named: str)
+        if GlobalData.debugMode {
+            button.backgroundColor = .blue
+        }
+        else {
+            button.backgroundColor = .clear
+        }
     }
     
     func updateItem(item: Item) {
