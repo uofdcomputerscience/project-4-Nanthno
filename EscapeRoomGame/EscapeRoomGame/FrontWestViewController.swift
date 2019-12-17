@@ -60,5 +60,22 @@ class FrontWestViewController : GameScreenViewController {
             }
         }
     }
+    @IBAction func forwardTapped(_ sender: Any) {
+        InCellNorthViewController.state = 0
+        InCellSouthViewController.state = 0
+        FrontSouthViewController.state = 0
+        FrontWestViewController.state = 0
+        FrontNorthViewController.state = 0
+        ConsoleViewController.state = 0
+        WindowViewController.state = 0
+        CompNorthViewController.state = 0
+        CompEastViewController.state = 0
+        CompWestViewController.state = 0
+        CompSouthViewController.state = 0
+        OutCellEastViewController.state = 0
+        OutCellNorthViewController.state = 0
+        OutCellSouthViewController.state = 0
+        GlobalData.item = Item.none
+    }
     
 }

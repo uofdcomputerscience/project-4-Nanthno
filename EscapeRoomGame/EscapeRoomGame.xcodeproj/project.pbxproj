@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -33,9 +33,11 @@
 		1860C3EA23A96A5C009C15C2 /* FrontNorthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860C3E923A96A5C009C15C2 /* FrontNorthViewController.swift */; };
 		1860C3EC23A96C9C009C15C2 /* FrontWestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860C3EB23A96C9C009C15C2 /* FrontWestViewController.swift */; };
 		1860C3EE23A96DB1009C15C2 /* FrontSouthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860C3ED23A96DB1009C15C2 /* FrontSouthViewController.swift */; };
+		9CC135D5605E50C215E263FD /* Pods_EscapeRoomGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FA8CCC1AB022997836BCA1 /* Pods_EscapeRoomGame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09FA8CCC1AB022997836BCA1 /* Pods_EscapeRoomGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EscapeRoomGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18575D5423A82A43009A67D4 /* EscapeRoomGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EscapeRoomGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18575D5723A82A43009A67D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18575D5923A82A43009A67D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,8 @@
 		1860C3E923A96A5C009C15C2 /* FrontNorthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontNorthViewController.swift; sourceTree = "<group>"; };
 		1860C3EB23A96C9C009C15C2 /* FrontWestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontWestViewController.swift; sourceTree = "<group>"; };
 		1860C3ED23A96DB1009C15C2 /* FrontSouthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontSouthViewController.swift; sourceTree = "<group>"; };
+		4D38B00865D0C1A29E9DF45F /* Pods-EscapeRoomGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EscapeRoomGame.release.xcconfig"; path = "Target Support Files/Pods-EscapeRoomGame/Pods-EscapeRoomGame.release.xcconfig"; sourceTree = "<group>"; };
+		FED3735A13BC96967FBD0DF5 /* Pods-EscapeRoomGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EscapeRoomGame.debug.xcconfig"; path = "Target Support Files/Pods-EscapeRoomGame/Pods-EscapeRoomGame.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC135D5605E50C215E263FD /* Pods_EscapeRoomGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +87,8 @@
 			children = (
 				18575D5623A82A43009A67D4 /* EscapeRoomGame */,
 				18575D5523A82A43009A67D4 /* Products */,
+				BC20E0C083D9085837D6C8C2 /* Pods */,
+				D58EBAB744023F8D5F71B8C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +134,23 @@
 			path = EscapeRoomGame;
 			sourceTree = "<group>";
 		};
+		BC20E0C083D9085837D6C8C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FED3735A13BC96967FBD0DF5 /* Pods-EscapeRoomGame.debug.xcconfig */,
+				4D38B00865D0C1A29E9DF45F /* Pods-EscapeRoomGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D58EBAB744023F8D5F71B8C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09FA8CCC1AB022997836BCA1 /* Pods_EscapeRoomGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18575D6623A82A46009A67D4 /* Build configuration list for PBXNativeTarget "EscapeRoomGame" */;
 			buildPhases = (
+				DDF2A36276B675EC1DA31689 /* [CP] Check Pods Manifest.lock */,
 				18575D5023A82A43009A67D4 /* Sources */,
 				18575D5123A82A43009A67D4 /* Frameworks */,
 				18575D5223A82A43009A67D4 /* Resources */,
+				4555C71B7C4C49D81F14B6A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,6 +218,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4555C71B7C4C49D81F14B6A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EscapeRoomGame/Pods-EscapeRoomGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EscapeRoomGame/Pods-EscapeRoomGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EscapeRoomGame/Pods-EscapeRoomGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDF2A36276B675EC1DA31689 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EscapeRoomGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18575D5023A82A43009A67D4 /* Sources */ = {
@@ -364,6 +432,7 @@
 		};
 		18575D6723A82A46009A67D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FED3735A13BC96967FBD0DF5 /* Pods-EscapeRoomGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +450,7 @@
 		};
 		18575D6823A82A46009A67D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D38B00865D0C1A29E9DF45F /* Pods-EscapeRoomGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

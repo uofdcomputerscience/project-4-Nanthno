@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import LiveKnob
 
 class InCellSouthViewController : GameScreenViewController {
     
@@ -13,6 +14,11 @@ class InCellSouthViewController : GameScreenViewController {
 
     @IBOutlet weak var mainView: UIImageView!
     @IBOutlet weak var itemView: UIImageView!
+    @IBOutlet weak var lockView: UIView!
+    @IBOutlet weak var lockImage: UIImageView!
+    @IBOutlet weak var arrowImage: UIImageView!
+    
+    @IBOutlet weak var dial: LiveKnob!
     
     static var state = 0
     let imageString = "InCellSouth"
@@ -27,14 +33,16 @@ class InCellSouthViewController : GameScreenViewController {
         updateImage()
         updateItem()
         forwardButton.isEnabled = (InCellSouthViewController.state == 1)
+        lockView.isHidden = true
+        lockView.isUserInteractionEnabled = false
         
     }
     
     @IBAction func lockButtonTapped(_ sender: Any) {
         if GlobalData.item == Item.lockPick {
             updateItem(item: Item.none)
-            InCellSouthViewController.state = 1
-            forwardButton.isEnabled = true
+            lockView.isHidden = false
+            lockView.isUserInteractionEnabled = true
             updateImage()
         }
     }
@@ -42,6 +50,8 @@ class InCellSouthViewController : GameScreenViewController {
     func updateImage() {
         let str = "\(imageString)\(InCellSouthViewController.state).png"
         mainView.image = UIImage(named: str)
+        lockImage.image = UIImage(named: "Lock.png")
+        arrowImage.image = UIImage(named: "Arrow.png")
     }
     
     func updateItem(item: Item) {
@@ -51,5 +61,15 @@ class InCellSouthViewController : GameScreenViewController {
     func updateItem() {
         itemView.image = GlobalData.getItemImage()
         itemString.text = GlobalData.getItemText()
+    }
+    @IBAction func dialMoved(_ sender: Any) {
+        if dial.value == dial.maximumValue {
+            lockView.isHidden = true
+            lockView.isUserInteractionEnabled = false
+            InCellSouthViewController.state = 1
+            forwardButton.isEnabled = true
+            updateImage()
+            
+        }
     }
 }

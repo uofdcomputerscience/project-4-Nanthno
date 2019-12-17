@@ -1,0 +1,6 @@
+framework module LiveKnob {
+  umbrella header "LiveKnob-umbrella.h"
+
+  export *
+  module * { export * }
+}
