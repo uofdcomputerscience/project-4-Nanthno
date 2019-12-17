@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18575D5823A82A43009A67D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D5723A82A43009A67D4 /* AppDelegate.swift */; };
+		18575D5A23A82A43009A67D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D5923A82A43009A67D4 /* ViewController.swift */; };
+		18575D5D23A82A43009A67D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18575D5B23A82A43009A67D4 /* Main.storyboard */; };
+		18575D6223A82A46009A67D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18575D6023A82A46009A67D4 /* LaunchScreen.storyboard */; };
+		18575D6A23A82C59009A67D4 /* InventoryCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D6923A82C59009A67D4 /* InventoryCollectionController.swift */; };
+		18575D6C23A82CC4009A67D4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D6B23A82CC4009A67D4 /* Item.swift */; };
+		18575D7423A82F13009A67D4 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D7323A82F13009A67D4 /* Room.swift */; };
+		18575D7623A82F46009A67D4 /* Facing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D7523A82F46009A67D4 /* Facing.swift */; };
+		18575D7823A83295009A67D4 /* InCellNorthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D7723A83295009A67D4 /* InCellNorthViewController.swift */; };
+		18575D7A23A8385E009A67D4 /* GameScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D7923A8385E009A67D4 /* GameScreenViewController.swift */; };
+		18575D7C23A84483009A67D4 /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D7B23A84483009A67D4 /* GlobalData.swift */; };
+		18575D8023A84BC4009A67D4 /* InCellSouthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D7F23A84BC4009A67D4 /* InCellSouthViewController.swift */; };
+		18575D8223A8520D009A67D4 /* OutCellSouthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D8123A8520D009A67D4 /* OutCellSouthViewController.swift */; };
+		18575D8423A853F4009A67D4 /* OutCellEastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D8323A853F4009A67D4 /* OutCellEastViewController.swift */; };
+		18575D8623A8576D009A67D4 /* blankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D8523A8576D009A67D4 /* blankViewController.swift */; };
+		18575D8A23A85D3C009A67D4 /* OutCellNorth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18575D8923A85D3C009A67D4 /* OutCellNorth.swift */; };
+		1860C3D923A94B76009C15C2 /* CompSouthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860C3D823A94B76009C15C2 /* CompSouthViewController.swift */; };
+		1860C3DB23A94E4F009C15C2 /* CompNorthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860C3DA23A94E4F009C15C2 /* CompNorthViewController.swift */; };
+		1860C3DD23A94E5F009C15C2 /* CompEastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860C3DC23A94E5F009C15C2 /* CompEastViewController.swift */; };
+		1860C3DF23A94E71009C15C2 /* CompWestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860C3DE23A94E71009C15C2 /* CompWestViewController.swift */; };
+		1860C3E123A95086009C15C2 /* WindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860C3E023A95086009C15C2 /* WindowViewController.swift */; };
+		1860C3E323A951C5009C15C2 /* ConsoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860C3E223A951C5009C15C2 /* ConsoleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18575D5423A82A43009A67D4 /* EscapeRoomGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EscapeRoomGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18575D5723A82A43009A67D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18575D5923A82A43009A67D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18575D5C23A82A43009A67D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18575D6123A82A46009A67D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18575D6323A82A46009A67D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18575D6923A82C59009A67D4 /* InventoryCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryCollectionController.swift; sourceTree = "<group>"; };
+		18575D6B23A82CC4009A67D4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		18575D7323A82F13009A67D4 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		18575D7523A82F46009A67D4 /* Facing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facing.swift; sourceTree = "<group>"; };
+		18575D7723A83295009A67D4 /* InCellNorthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCellNorthViewController.swift; sourceTree = "<group>"; };
+		18575D7923A8385E009A67D4 /* GameScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreenViewController.swift; sourceTree = "<group>"; };
+		18575D7B23A84483009A67D4 /* GlobalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
+		18575D7F23A84BC4009A67D4 /* InCellSouthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCellSouthViewController.swift; sourceTree = "<group>"; };
+		18575D8123A8520D009A67D4 /* OutCellSouthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutCellSouthViewController.swift; sourceTree = "<group>"; };
+		18575D8323A853F4009A67D4 /* OutCellEastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutCellEastViewController.swift; sourceTree = "<group>"; };
+		18575D8523A8576D009A67D4 /* blankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blankViewController.swift; sourceTree = "<group>"; };
+		18575D8923A85D3C009A67D4 /* OutCellNorth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutCellNorth.swift; sourceTree = "<group>"; };
+		1860C3D823A94B76009C15C2 /* CompSouthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompSouthViewController.swift; sourceTree = "<group>"; };
+		1860C3DA23A94E4F009C15C2 /* CompNorthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompNorthViewController.swift; sourceTree = "<group>"; };
+		1860C3DC23A94E5F009C15C2 /* CompEastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompEastViewController.swift; sourceTree = "<group>"; };
+		1860C3DE23A94E71009C15C2 /* CompWestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompWestViewController.swift; sourceTree = "<group>"; };
+		1860C3E023A95086009C15C2 /* WindowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowViewController.swift; sourceTree = "<group>"; };
+		1860C3E223A951C5009C15C2 /* ConsoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleViewController.swift; sourceTree = "<group>"; };
+		1860C3E523A96842009C15C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/ahanson/Projects/MobileDev/project-4-Nanthno/EscapeRoomGame/EscapeRoomGame/Assets.xcassets"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18575D5123A82A43009A67D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18575D4B23A82A43009A67D4 = {
+			isa = PBXGroup;
+			children = (
+				18575D5623A82A43009A67D4 /* EscapeRoomGame */,
+				18575D5523A82A43009A67D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18575D5523A82A43009A67D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18575D5423A82A43009A67D4 /* EscapeRoomGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18575D5623A82A43009A67D4 /* EscapeRoomGame */ = {
+			isa = PBXGroup;
+			children = (
+				1860C3E523A96842009C15C2 /* Assets.xcassets */,
+				18575D8923A85D3C009A67D4 /* OutCellNorth.swift */,
+				18575D7B23A84483009A67D4 /* GlobalData.swift */,
+				18575D7723A83295009A67D4 /* InCellNorthViewController.swift */,
+				18575D7F23A84BC4009A67D4 /* InCellSouthViewController.swift */,
+				18575D7523A82F46009A67D4 /* Facing.swift */,
+				18575D7323A82F13009A67D4 /* Room.swift */,
+				18575D5723A82A43009A67D4 /* AppDelegate.swift */,
+				18575D5923A82A43009A67D4 /* ViewController.swift */,
+				18575D5B23A82A43009A67D4 /* Main.storyboard */,
+				1860C3E223A951C5009C15C2 /* ConsoleViewController.swift */,
+				1860C3E023A95086009C15C2 /* WindowViewController.swift */,
+				1860C3DA23A94E4F009C15C2 /* CompNorthViewController.swift */,
+				1860C3DC23A94E5F009C15C2 /* CompEastViewController.swift */,
+				1860C3DE23A94E71009C15C2 /* CompWestViewController.swift */,
+				1860C3D823A94B76009C15C2 /* CompSouthViewController.swift */,
+				18575D8323A853F4009A67D4 /* OutCellEastViewController.swift */,
+				18575D8523A8576D009A67D4 /* blankViewController.swift */,
+				18575D8123A8520D009A67D4 /* OutCellSouthViewController.swift */,
+				18575D7923A8385E009A67D4 /* GameScreenViewController.swift */,
+				18575D6923A82C59009A67D4 /* InventoryCollectionController.swift */,
+				18575D6B23A82CC4009A67D4 /* Item.swift */,
+				18575D6023A82A46009A67D4 /* LaunchScreen.storyboard */,
+				18575D6323A82A46009A67D4 /* Info.plist */,
+			);
+			path = EscapeRoomGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18575D5323A82A43009A67D4 /* EscapeRoomGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18575D6623A82A46009A67D4 /* Build configuration list for PBXNativeTarget "EscapeRoomGame" */;
+			buildPhases = (
+				18575D5023A82A43009A67D4 /* Sources */,
+				18575D5123A82A43009A67D4 /* Frameworks */,
+				18575D5223A82A43009A67D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EscapeRoomGame;
+			productName = EscapeRoomGame;
+			productReference = 18575D5423A82A43009A67D4 /* EscapeRoomGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18575D4C23A82A43009A67D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Anthony Hanson";
+				TargetAttributes = {
+					18575D5323A82A43009A67D4 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 18575D4F23A82A43009A67D4 /* Build configuration list for PBXProject "EscapeRoomGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18575D4B23A82A43009A67D4;
+			productRefGroup = 18575D5523A82A43009A67D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18575D5323A82A43009A67D4 /* EscapeRoomGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18575D5223A82A43009A67D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18575D6223A82A46009A67D4 /* LaunchScreen.storyboard in Resources */,
+				18575D5D23A82A43009A67D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18575D5023A82A43009A67D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18575D8023A84BC4009A67D4 /* InCellSouthViewController.swift in Sources */,
+				1860C3DB23A94E4F009C15C2 /* CompNorthViewController.swift in Sources */,
+				18575D6C23A82CC4009A67D4 /* Item.swift in Sources */,
+				18575D8423A853F4009A67D4 /* OutCellEastViewController.swift in Sources */,
+				18575D7423A82F13009A67D4 /* Room.swift in Sources */,
+				18575D7823A83295009A67D4 /* InCellNorthViewController.swift in Sources */,
+				1860C3D923A94B76009C15C2 /* CompSouthViewController.swift in Sources */,
+				18575D6A23A82C59009A67D4 /* InventoryCollectionController.swift in Sources */,
+				1860C3E323A951C5009C15C2 /* ConsoleViewController.swift in Sources */,
+				1860C3DD23A94E5F009C15C2 /* CompEastViewController.swift in Sources */,
+				18575D5A23A82A43009A67D4 /* ViewController.swift in Sources */,
+				18575D8623A8576D009A67D4 /* blankViewController.swift in Sources */,
+				18575D8223A8520D009A67D4 /* OutCellSouthViewController.swift in Sources */,
+				18575D7A23A8385E009A67D4 /* GameScreenViewController.swift in Sources */,
+				18575D7C23A84483009A67D4 /* GlobalData.swift in Sources */,
+				18575D5823A82A43009A67D4 /* AppDelegate.swift in Sources */,
+				18575D8A23A85D3C009A67D4 /* OutCellNorth.swift in Sources */,
+				1860C3DF23A94E71009C15C2 /* CompWestViewController.swift in Sources */,
+				18575D7623A82F46009A67D4 /* Facing.swift in Sources */,
+				1860C3E123A95086009C15C2 /* WindowViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18575D5B23A82A43009A67D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18575D5C23A82A43009A67D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18575D6023A82A46009A67D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18575D6123A82A46009A67D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18575D6423A82A46009A67D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18575D6523A82A46009A67D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18575D6723A82A46009A67D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EscapeRoomGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.n4.EscapeRoomGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18575D6823A82A46009A67D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EscapeRoomGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.n4.EscapeRoomGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18575D4F23A82A43009A67D4 /* Build configuration list for PBXProject "EscapeRoomGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18575D6423A82A46009A67D4 /* Debug */,
+				18575D6523A82A46009A67D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18575D6623A82A46009A67D4 /* Build configuration list for PBXNativeTarget "EscapeRoomGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18575D6723A82A46009A67D4 /* Debug */,
+				18575D6823A82A46009A67D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18575D4C23A82A43009A67D4 /* Project object */;
+}
